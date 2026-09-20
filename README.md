@@ -93,20 +93,24 @@ $env:TESTRAIL_PASSWORD="your_password"
 build/reports/tests/test/index.html
 ```
 
-## Соответствие ручных кейсов и автотестов
+## Тестовые сценарии
 
-| ID | Название | Класс | Метод |
-|---|---|---|---|
-| TC-01 | Успешная авторизация | FirstTest | successfulLogin |
-| TC-02 | Авторизация с неверным паролем | FirstTest | checkInvalidPassword |
-| TC-03 | Авторизация с пустым Email и неверным паролем | FirstTest | checkEmptyEmail |
-| TC-04 | Авторизация с пустым паролем | FirstTest | checkEmptyPassword |
-| TC-05 | Переход на Dashboard после авторизации | FirstTest | openDashboard |
-| TC-06 | Открытие Sample Project | FirstTest | openSampleProject |
-| TC-07 | Поиск и открытие Sample Project | FirstTest | searchAndOpenSampleProject |
-| TC-08 | Переход в Test Cases проекта | FirstTest | openTestCases |
-| TC-09 | Переход в Test Runs & Results | FirstTest | openTestRunsResults |
-| TC-10 | Создание Test Run | FirstTest | createTestRun |
+Ручные кейсы на платформе недоступны. По согласованию с ментором автотесты были написаны сразу, без создания новых ручных кейсов.
+
+В проекте автоматизировано 10 сценариев:
+
+| ID | Сценарий | Метод |
+|---|---|---|
+| TC-01 | Успешная авторизация | successfulLogin |
+| TC-02 | Авторизация с неверным паролем | checkInvalidPassword |
+| TC-03 | Авторизация с пустым Email и неверным паролем | checkEmptyEmail |
+| TC-04 | Авторизация с пустым паролем | checkEmptyPassword |
+| TC-05 | Переход на Dashboard после авторизации | openDashboard |
+| TC-06 | Открытие Sample Project | openSampleProject |
+| TC-07 | Поиск и открытие Sample Project | searchAndOpenSampleProject |
+| TC-08 | Переход в Test Cases проекта | openTestCases |
+| TC-09 | Переход в Test Runs & Results | openTestRunsResults |
+| TC-10 | Создание Test Run | createTestRun |
 
 ## Известные ограничения
 
